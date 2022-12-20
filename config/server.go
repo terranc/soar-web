@@ -50,7 +50,7 @@ var EtcDir = []string{"soar-web.yaml", "etc/soar-web.yaml", "/etc/soar-web.yaml"
 
 func SetupConfig() (*Config, error) {
 
-	pflag.String("addr", "127.0.0.1:5077", "server listen addr")
+	pflag.String("addr", "127.0.0.1:80", "server listen addr")
 	pflag.String("cert", "", "tls cert file")
 	pflag.String("domain", "", "allow domain")
 	pflag.String("key", "", "tls key file")
